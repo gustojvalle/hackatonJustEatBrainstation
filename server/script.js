@@ -11,7 +11,7 @@ const order = (restaurant, status) => ({
 setInterval(() => {
   const queue = JSON.parse(fs.readFileSync("./data/queue.json"));
 
-  const randomOrder = order("chinese takeaway", "waiting");
+  const randomOrder = order("test restaurant", "waiting");
   queue.push(randomOrder);
   fs.writeFileSync("./data/queue.json", JSON.stringify(queue));
   console.log(randomOrder);
