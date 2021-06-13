@@ -1,0 +1,13 @@
+@use  '../../style-partials/variables' as *;
+
+.selector{
+    display: flex;
+    flex-direction: column;
+    
+    &__input{
+        @include input;
+    }
+    &__label{
+        margin-bottom: px-to-rem(8);
+    }
+}

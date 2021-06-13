@@ -1,0 +1,16 @@
+@use './style-partials/typography' as *;
+@use './style-partials/variables' as *;
+
+body, html{
+    box-sizing: border-box;
+   padding: 0;
+    margin: 0;
+    font-family: NotoSans regular;
+    color: $jet-black;
+    }
+
+*, *::after, *::before{
+      padding: 0;
+    margin: 0;    
+    color: inherit;
+}

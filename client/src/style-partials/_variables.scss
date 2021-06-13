@@ -1,0 +1,30 @@
+@function px-to-rem($px) {
+    
+  @return ($px/16)+rem;
+}
+
+@mixin input {
+   margin-bottom: px-to-rem(24);
+        height: px-to-rem(32);
+        border-radius: px-to-rem(8);
+        padding: 0 px-to-rem(16);
+        border: px-to-rem(1) solid rgba($jet-black, 0.5);
+}
+
+@mixin button {
+    padding: px-to-rem(8);
+    color: $ghost-white;
+    background-color: $j-eat-orange;
+    border: none;
+    border-radius: px-to-rem(5);
+    font-size: px-to-rem(16);
+    font-weight: bold;
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+$j-eat-orange: #f36d00;
+$ghost-white: #FBFBFF;
+$cyan-process: #01baef;
+$jet-black: #333333;

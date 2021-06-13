@@ -1,0 +1,21 @@
+@use '../../style-partials/variables' as *;
+
+
+.donation-page{
+    display: flex;
+    
+    flex-direction: column;
+    
+    padding: px-to-rem(24);
+    &__input{
+       @include input;
+    }
+    &__label{margin-bottom: px-to-rem(8);}
+    &__button{
+        @include button;
+        width: 70%;
+        align-self: center;
+        margin-bottom: px-to-rem(16);
+
+    }
+}

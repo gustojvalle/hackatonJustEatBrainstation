@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+
+@font-face {
+    font-family: NotoSans bold;
+    src: url(../Assets/fonts/NotoSans-Bold.ttf);
+
+}
+@font-face {
+    font-family: NotoSans regular;
+    src: url(../Assets/fonts/NotoSans-Regular.ttf);
+    
+}
+
+h1{
+
+}
+h2{
+    font-size: px-to-rem(30);
+    line-height: px-to-rem(36);
+}
+h3{
+
+}
+h4{
+
+}
+p{
+    font-size: px-to-rem(20);
+    line-height: px-to-rem(28);
+}
+
+a{
+    color: white;
+    font-size: px-to-rem(24);
+    font-weight: bold;
+    text-decoration: none;
+}

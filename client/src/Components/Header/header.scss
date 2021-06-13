@@ -1,0 +1,22 @@
+@use '../../style-partials/variables' as *;
+
+.header {
+    padding:  px-to-rem(24);
+    position:relative;
+    top: 0;
+    left: 0;
+   
+  background-color: $j-eat-orange;
+
+  &__list{
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      color: white;
+      &-item--margin{
+        // margin-left: px-to-rem(32);
+        
+      }
+
+  }
+}

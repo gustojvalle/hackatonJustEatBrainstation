@@ -1,0 +1,10 @@
+@use '../../style-partials/variables' as *;
+
+.button { 
+    
+    @include button;
+    &:hover {
+        cursor: pointer;
+    }
+    
+}

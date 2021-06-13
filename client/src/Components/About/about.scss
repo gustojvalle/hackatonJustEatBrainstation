@@ -1,0 +1,13 @@
+@use '../../style-partials/variables' as *;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: px-to-rem(24);
+    height: 100%;
+    padding-top: px-to-rem(100);
+    &__title{
+        margin-bottom: px-to-rem(24);
+    }
+}
