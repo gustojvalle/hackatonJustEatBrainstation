@@ -33,7 +33,7 @@ The idea is that you can pay for someones meal similar to when people pay the bi
 
 - fs is used to read and write files
 
-- cors is used so the backend can be accessible for the frontend
+- cors is used so the backend can be accessible by the frontend
 
 
 ## How to use
